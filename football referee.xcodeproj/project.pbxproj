@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944874071CCE3E49005752CD /* GAMEONController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944874061CCE3E49005752CD /* GAMEONController.swift */; };
 		94FF806D1CA94CD7003C9A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF806C1CA94CD7003C9A97 /* AppDelegate.swift */; };
 		94FF806F1CA94CD7003C9A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF806E1CA94CD7003C9A97 /* ViewController.swift */; };
 		94FF80721CA94CD7003C9A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FF80701CA94CD7003C9A97 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		944874061CCE3E49005752CD /* GAMEONController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAMEONController.swift; sourceTree = "<group>"; };
 		94FF80691CA94CD7003C9A97 /* football referee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football referee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF806C1CA94CD7003C9A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94FF806E1CA94CD7003C9A97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				94FF80731CA94CD7003C9A97 /* Assets.xcassets */,
 				94FF80751CA94CD7003C9A97 /* LaunchScreen.storyboard */,
 				94FF80781CA94CD7003C9A97 /* Info.plist */,
+				944874061CCE3E49005752CD /* GAMEONController.swift */,
 			);
 			path = "football referee";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94FF806F1CA94CD7003C9A97 /* ViewController.swift in Sources */,
+				944874071CCE3E49005752CD /* GAMEONController.swift in Sources */,
 				94FF806D1CA94CD7003C9A97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				94FF80931CA94CD7003C9A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94FF80941CA94CD7003C9A97 /* Build configuration list for PBXNativeTarget "football refereeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				94FF80961CA94CD7003C9A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94FF80971CA94CD7003C9A97 /* Build configuration list for PBXNativeTarget "football refereeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				94FF80991CA94CD7003C9A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
