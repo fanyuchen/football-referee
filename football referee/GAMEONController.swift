@@ -10,7 +10,12 @@ import UIKit
 
 class GAMEONController: UIViewController {
     var time : NSTimer!
+    var _tame:Int = 5400
+    var pointA:Int = 0 , pointB:Int = 0
 
+    @IBOutlet weak var pointLabA: UILabel!
+    @IBOutlet weak var pointLabB: UILabel!
+    @IBOutlet weak var timel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,17 +34,29 @@ class GAMEONController: UIViewController {
 
     func  tickDown()
     {
-        _time-=-1
-        let sec = _time%60
-        let min = _time/60
-        teme.text = String(min)+":"+String(sec)
+        _tame -= 1
+        let sec = _tame%60
+        let min = _tame/60
+        timel.text = String(min)+":"+String(sec)
         if(_tame == 0){
-            if( )
+            time.invalidate()
 
         }
         
     }
+    
+    @IBAction func gold(sender: AnyObject) {
+        pointA += 1
+        pointLabA.text = String(pointA)
+    }
+    
+    @IBAction func goldB(sender: AnyObject) {
+        pointB += 1
+        pointLabB.text = String(pointB)
+    }
 
+    @IBOutlet weak var tAimg: UIImageView!
+    UIImage *image2 = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"image.png" ofType:nil]];
     /*
     // MARK: - Navigation
 

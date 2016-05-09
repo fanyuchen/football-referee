@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942578F81CE0AF2300573DC5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 942578F71CE0AF2300573DC5 /* libsqlite3.0.tbd */; };
+		942578FE1CE0B3E400573DC5 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942578FD1CE0B3E400573DC5 /* SQLiteDB.swift */; };
+		942579001CE0B3F000573DC5 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942578FF1CE0B3F000573DC5 /* SQLTable.swift */; };
+		942579021CE0B3FE00573DC5 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942579011CE0B3FE00573DC5 /* String-Extras.swift */; };
 		944874071CCE3E49005752CD /* GAMEONController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944874061CCE3E49005752CD /* GAMEONController.swift */; };
 		94FF806D1CA94CD7003C9A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF806C1CA94CD7003C9A97 /* AppDelegate.swift */; };
 		94FF806F1CA94CD7003C9A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF806E1CA94CD7003C9A97 /* ViewController.swift */; };
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942578F71CE0AF2300573DC5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		942578FB1CE0AFF900573DC5 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		942578FD1CE0B3E400573DC5 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = "../../../../../../Downloads/hangge_645-2/SQLiteDB/SQLiteDB.swift"; sourceTree = "<group>"; };
+		942578FF1CE0B3F000573DC5 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = "../../../../../../Downloads/hangge_645-2/SQLiteDB/SQLTable.swift"; sourceTree = "<group>"; };
+		942579011CE0B3FE00573DC5 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../../../../../../Downloads/hangge_645-2/SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
 		944874061CCE3E49005752CD /* GAMEONController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAMEONController.swift; sourceTree = "<group>"; };
 		94FF80691CA94CD7003C9A97 /* football referee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football referee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF806C1CA94CD7003C9A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942578F81CE0AF2300573DC5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		942578FC1CE0B38000573DC5 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				942578FF1CE0B3F000573DC5 /* SQLTable.swift */,
+				942578FD1CE0B3E400573DC5 /* SQLiteDB.swift */,
+				942579011CE0B3FE00573DC5 /* String-Extras.swift */,
+			);
+			name = SQLiteDB;
+			sourceTree = "<group>";
+		};
 		94FF80601CA94CD6003C9A97 = {
 			isa = PBXGroup;
 			children = (
+				942578FC1CE0B38000573DC5 /* SQLiteDB */,
+				942578F71CE0AF2300573DC5 /* libsqlite3.0.tbd */,
 				94FF806B1CA94CD7003C9A97 /* football referee */,
 				94FF80801CA94CD7003C9A97 /* football refereeTests */,
 				94FF808B1CA94CD7003C9A97 /* football refereeUITests */,
@@ -106,6 +128,7 @@
 				94FF80751CA94CD7003C9A97 /* LaunchScreen.storyboard */,
 				94FF80781CA94CD7003C9A97 /* Info.plist */,
 				944874061CCE3E49005752CD /* GAMEONController.swift */,
+				942578FB1CE0AFF900573DC5 /* Bridging-Header.h */,
 			);
 			path = "football referee";
 			sourceTree = "<group>";
@@ -260,8 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				94FF806F1CA94CD7003C9A97 /* ViewController.swift in Sources */,
+				942579021CE0B3FE00573DC5 /* String-Extras.swift in Sources */,
+				942578FE1CE0B3E400573DC5 /* SQLiteDB.swift in Sources */,
 				944874071CCE3E49005752CD /* GAMEONController.swift in Sources */,
 				94FF806D1CA94CD7003C9A97 /* AppDelegate.swift in Sources */,
+				942579001CE0B3F000573DC5 /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.imnu.edu.cn.football-referee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/fanyuchen/Desktop/20131105815fyc/20131105815fyc/app/app/football referee/football referee/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -418,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.imnu.edu.cn.football-referee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/fanyuchen/Desktop/20131105815fyc/20131105815fyc/app/app/football referee/football referee/Bridging-Header.h";
 			};
 			name = Release;
 		};
