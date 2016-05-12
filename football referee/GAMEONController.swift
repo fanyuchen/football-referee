@@ -12,6 +12,7 @@ class GAMEONController: UIViewController {
     var time : NSTimer!
     var _tame:Int = 5400
     var pointA:Int = 0 , pointB:Int = 0
+    var stop : NSTimer!
 
     @IBOutlet weak var pointLabA: UILabel!
     @IBOutlet weak var pointLabB: UILabel!
@@ -30,6 +31,9 @@ class GAMEONController: UIViewController {
     @IBAction func star(sender: AnyObject) {
         time = NSTimer.scheduledTimerWithTimeInterval(1,target: self,selector: Selector("tickDown"),
             userInfo:nil,repeats:true)
+    }
+    @IBAction func stop(sender: AnyObject) {
+        time .invalidate()
     }
 
     func  tickDown()
@@ -56,7 +60,6 @@ class GAMEONController: UIViewController {
     }
 
     @IBOutlet weak var tAimg: UIImageView!
-    UIImage *image2 = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"image.png" ofType:nil]];
     /*
     // MARK: - Navigation
 

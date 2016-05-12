@@ -299,6 +299,9 @@
                                 <rect key="frame" x="120" y="294" width="79" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stop:" destination="Bxh-DG-XiN" eventType="touchUpInside" id="usS-HT-uA1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="90:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaW-T2-GuV">
                                 <rect key="frame" x="127" y="119" width="78" height="39"/>
