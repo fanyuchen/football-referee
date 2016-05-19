@@ -59,6 +59,9 @@ class GAMEONController: UIViewController {
         pointLabB.text = String(pointB)
     }
 
+    @IBAction func ADDTIME(sender: AnyObject) {
+        _tame+=180
+    }
     @IBOutlet weak var tAimg: UIImageView!
     /*
     // MARK: - Navigation
