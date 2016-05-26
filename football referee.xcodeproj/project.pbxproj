@@ -12,6 +12,8 @@
 		942579001CE0B3F000573DC5 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942578FF1CE0B3F000573DC5 /* SQLTable.swift */; };
 		942579021CE0B3FE00573DC5 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942579011CE0B3FE00573DC5 /* String-Extras.swift */; };
 		944874071CCE3E49005752CD /* GAMEONController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944874061CCE3E49005752CD /* GAMEONController.swift */; };
+		9457140E1CF69EDA00041992 /* basa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9457140C1CF69EDA00041992 /* basa.png */; };
+		9457140F1CF69EDA00041992 /* huangma.png in Resources */ = {isa = PBXBuildFile; fileRef = 9457140D1CF69EDA00041992 /* huangma.png */; };
 		94855BC31CED58F1006498E3 /* POINTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94855BC21CED58F1006498E3 /* POINTViewController.swift */; };
 		94855BC61CED5A4C006498E3 /* TEAMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94855BC51CED5A4C006498E3 /* TEAMViewController.swift */; };
 		94855BC91CED5AC8006498E3 /* REDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94855BC81CED5AC8006498E3 /* REDViewController.swift */; };
@@ -52,6 +54,8 @@
 		942578FF1CE0B3F000573DC5 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = "../../../../../../Downloads/hangge_645-2/SQLiteDB/SQLTable.swift"; sourceTree = "<group>"; };
 		942579011CE0B3FE00573DC5 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../../../../../../Downloads/hangge_645-2/SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
 		944874061CCE3E49005752CD /* GAMEONController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAMEONController.swift; sourceTree = "<group>"; };
+		9457140C1CF69EDA00041992 /* basa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basa.png; path = ../../../../../../basa.png; sourceTree = "<group>"; };
+		9457140D1CF69EDA00041992 /* huangma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huangma.png; path = ../../../../../../huangma.png; sourceTree = "<group>"; };
 		94855BC21CED58F1006498E3 /* POINTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POINTViewController.swift; sourceTree = "<group>"; };
 		94855BC51CED5A4C006498E3 /* TEAMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEAMViewController.swift; sourceTree = "<group>"; };
 		94855BC81CED5AC8006498E3 /* REDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REDViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				94855BD01CED6502006498E3 /* 1408409431.jpg */,
 				94855BCA1CED5EEE006498E3 /* soccer.jpg */,
 				94855BCC1CED60D4006498E3 /* changdii.jpg */,
+				9457140C1CF69EDA00041992 /* basa.png */,
+				9457140D1CF69EDA00041992 /* huangma.png */,
 				94FF806C1CA94CD7003C9A97 /* AppDelegate.swift */,
 				94FF806E1CA94CD7003C9A97 /* ViewController.swift */,
 				94FF80701CA94CD7003C9A97 /* Main.storyboard */,
@@ -276,8 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9457140F1CF69EDA00041992 /* huangma.png in Resources */,
 				94855BCB1CED5EEE006498E3 /* soccer.jpg in Resources */,
 				94855BCD1CED60D4006498E3 /* changdii.jpg in Resources */,
+				9457140E1CF69EDA00041992 /* basa.png in Resources */,
 				94FF80771CA94CD7003C9A97 /* LaunchScreen.storyboard in Resources */,
 				94FF80741CA94CD7003C9A97 /* Assets.xcassets in Resources */,
 				94855BCF1CED6433006498E3 /* 1318986290.jpg in Resources */,

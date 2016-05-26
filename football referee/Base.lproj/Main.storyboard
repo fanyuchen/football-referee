@@ -20,7 +20,7 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="a3Y-xM-Pq3">
                                 <rect key="frame" x="123" y="406" width="39" height="37"/>
                             </pageControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="changdii.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VWO-Fk-89q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1408409431.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VWO-Fk-89q">
                                 <rect key="frame" x="-88" y="0.0" width="497" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCB-Hu-7Uz">
@@ -39,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="51" y="152"/>
+            <point key="canvasLocation" x="51" y="151.99999999999997"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vFs-6z-Czy">
@@ -53,13 +53,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avY-7G-ghu">
-                                <rect key="frame" x="110" y="405" width="60" height="30"/>
-                                <state key="normal" title="创建队伍"/>
-                                <connections>
-                                    <segue destination="QIG-OC-sfq" kind="modal" id="8Cr-Mq-wln"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1E-7t-XYc">
                                 <rect key="frame" x="49" y="168" width="110" height="54"/>
                                 <state key="normal" title="11v11人计时模式"/>
@@ -73,13 +66,20 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avY-7G-ghu">
+                                <rect key="frame" x="175" y="253" width="60" height="30"/>
+                                <state key="normal" title="创建队伍"/>
+                                <connections>
+                                    <segue destination="QIG-OC-sfq" kind="modal" id="8Cr-Mq-wln"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Key-j4-grq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="446" y="159"/>
+            <point key="canvasLocation" x="446" y="158.99999999999997"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ji4-5i-WnT">
@@ -93,11 +93,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8cg-8G-9Cr">
-                                <rect key="frame" x="25" y="151" width="89" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huangma.png" translatesAutoresizingMaskIntoConstraints="NO" id="8cg-8G-9Cr">
+                                <rect key="frame" x="25" y="168" width="89" height="105"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghU-wQ-YfD">
-                                <rect key="frame" x="108" y="396" width="69" height="30"/>
+                                <rect key="frame" x="126" y="298" width="69" height="30"/>
                                 <state key="normal" title="ON GAME"/>
                                 <connections>
                                     <segue destination="Bxh-DG-XiN" kind="modal" id="ysc-Wo-p8i"/>
@@ -109,20 +109,20 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8mf-wr-uX9">
-                                <rect key="frame" x="152" y="174" width="97" height="30"/>
+                                <rect key="frame" x="152" y="216" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basa.png" translatesAutoresizingMaskIntoConstraints="NO" id="6re-Gj-NSt">
+                                <rect key="frame" x="25" y="46" width="89" height="87"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtI-hv-LU6">
-                                <rect key="frame" x="258" y="128" width="37" height="30"/>
+                                <rect key="frame" x="258" y="144" width="37" height="30"/>
                                 <state key="normal" title="SAVE"/>
                                 <connections>
                                     <segue destination="Tn3-W0-SVe" kind="modal" id="7l9-A2-bHM"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6re-Gj-NSt">
-                                <rect key="frame" x="25" y="52" width="89" height="76"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -140,7 +140,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="869" y="159"/>
+            <point key="canvasLocation" x="869" y="158.99999999999997"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ioy-Wq-HnI">
@@ -157,14 +157,14 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="4JH-gi-Qn4">
                                 <rect key="frame" x="0.0" y="33" width="320" height="44"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4JH-gi-Qn4" id="jF2-zY-ANq">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="-1" width="0.0" height="1"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="LAg-oT-L8v">
                                 <rect key="frame" x="0.0" y="113" width="320" height="44"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LAg-oT-L8v" id="vkV-eC-paw">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="-1" width="0.0" height="1"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -174,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JUg-zz-Kqi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1353" y="159"/>
+            <point key="canvasLocation" x="1353" y="158.99999999999997"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="x31-Ov-jUG">
@@ -206,11 +206,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JzB-jU-SGF">
-                                <rect key="frame" x="12" y="33" width="91" height="85"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QuR-at-zu9">
-                                <rect key="frame" x="222" y="33" width="91" height="85"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huangma.png" translatesAutoresizingMaskIntoConstraints="NO" id="QuR-at-zu9">
+                                <rect key="frame" x="222" y="14" width="91" height="109"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Aa-Of-dqM">
                                 <rect key="frame" x="0.0" y="166" width="63" height="55"/>
@@ -287,7 +284,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afo-hi-GR4">
-                                <rect key="frame" x="109" y="467" width="102" height="37"/>
+                                <rect key="frame" x="109" y="383" width="102" height="37"/>
                                 <state key="normal" title="ADD TIME ">
                                     <color key="titleColor" red="0.52116986109178365" green="0.71896349245855751" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -319,6 +316,9 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basa.png" translatesAutoresizingMaskIntoConstraints="NO" id="JzB-jU-SGF">
+                                <rect key="frame" x="12" y="28" width="91" height="85"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99852915432131972" green="1" blue="0.93573309741537702" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -353,7 +353,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="changdii.jpg" width="639" height="784"/>
+        <image name="1408409431.jpg" width="639" height="784"/>
+        <image name="basa.png" width="3106" height="3144"/>
+        <image name="huangma.png" width="1973" height="2757"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xin-qY-Qfm"/>
